@@ -4,8 +4,77 @@ function greeting() {
 }
 
 greeting();
-    // pass! :)
 
+// Celsius to Fahrenheit
+// F = C x 9/5 + 32
+function toFahrenheit(celsius) {
+    return celsius * 9/5 + 32;
+}
+
+console.log(toFahrenheit(95));
+
+// Print an Array of Names
+function printArray(names) {
+   for (let i = 0; i < names.length; i++) {
+        console.log(names[i]);
+    }
+}
+
+printArray(['Yes', 'Hello', 'My name is']);
+
+// Triple the Parameter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Greeting
+function greeting() {
+    console.log('Helloooo');
+}
+
+greeting();
+    // pass! :)
+    
 // Celsius to Fahrenheit
 function toFahrenheit(celsius) {
     // F = C x 9/5 + 32
@@ -104,4 +173,4 @@ function even(x) {
 console.log(even(8));
     // wasn't sure what to name the parameter
     // is the remainder 0 when a number
-    // x is divided by 2? need to practice
+    // x is divided by 2? need to practice */
