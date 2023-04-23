@@ -1,6 +1,6 @@
 // Greeting
 function greeting() {
-    console.log('Top of the mornin to ya');
+    console.log("Good morning :)");
 }
 
 greeting();
@@ -11,7 +11,7 @@ function toFahrenheit(celsius) {
     return celsius * 9/5 + 32;
 }
 
-console.log(toFahrenheit(400));
+console.log(toFahrenheit(14));
 
 
 // Print an Array of Names
@@ -21,7 +21,7 @@ function printArray(names) {
     }
 }
 
-printArray(["Adam", "Xander", "Nick"]);
+printArray(["Lulu", "Nunu", "Poppy"]);
 
 
 // Triple the Parameter
@@ -29,7 +29,7 @@ function triple(x) {
     return x + x + x;
 }
 
-console.log(triple("hoe "));
+console.log(triple("ho "));
 
 
 
