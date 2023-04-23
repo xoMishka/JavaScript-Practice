@@ -1,6 +1,6 @@
 // Greeting
 function greeting() {
-    console.log('Helloooo');
+    console.log('Top of the mornin to ya');
 }
 
 greeting();
@@ -11,19 +11,25 @@ function toFahrenheit(celsius) {
     return celsius * 9/5 + 32;
 }
 
-console.log(toFahrenheit(95));
+console.log(toFahrenheit(400));
+
 
 // Print an Array of Names
 function printArray(names) {
-   for (let i = 0; i < names.length; i++) {
+    for (let i = 0; i < names.length; i++) {
         console.log(names[i]);
     }
 }
 
-printArray(['Yes', 'Hello', 'My name is']);
+printArray(["Adam", "Xander", "Nick"]);
+
 
 // Triple the Parameter
+function triple(x) {
+    return x + x + x;
+}
 
+console.log(triple("hoe "));
 
 
 
