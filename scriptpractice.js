@@ -1,3 +1,11 @@
+/* 
+    JavaScript Goals
+
+
+
+*/
+
+
 // Greeting
 function greeting() {
     console.log("Good morning :)");

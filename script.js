@@ -164,6 +164,16 @@ fahrenheit temperature into a variable. Convert it to celsius and output "NN°F 
 // 5. Write a function that accepts a string as a parameter and converts the first
 // letter of each word of the string in upper case
 // i.e. 'the quick brown fox' output 'The Quick Brown Fox'
+function capitalizeWords(sentence) {
+    var words = sentence.split(' ');  // Split the sentence into an array of words
+    var capitalizedWords = words.map(function(word) {
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    });
+    var capitalizedSentence = capitalizedWords.join(' ');
+    return capitalizedSentence;
+  }
+
+  console.log(capitalizeWords("hello yes its me"));
 
 // 6. Write a function that accepts a string as a parameter and finds the
 // longest word within the string, i.e. 'Web Development Tutorial' output 'Development'
