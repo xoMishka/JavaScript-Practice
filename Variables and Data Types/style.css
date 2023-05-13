@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/*
+    Variables & Data Types
+    May 13, 2023
+
+*/
+
+/*
+    Color Palette
+        Grey: EDE4E0
+        Green: C8DBBE
+        Light Brown: 9F8772
+        Dark Brown: 665A48  
+
+*/
+
+:root { box-sizing: border-box; }
+*, ::before, ::after {
+    box-sizing: inherit;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #312b22;
+}
+
+body {
+    background-color: #EDE4E0;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h1 {
+    text-indent: 2rem;
+}
+
+.variable-list {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+p {
+    padding-left: 2rem;
+}
+
+code {
+    background-color: #665A48;
+    font-size: 14px;
+    font-family:'Courier New', Courier, monospace;
+    color: #EDE4E0;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
