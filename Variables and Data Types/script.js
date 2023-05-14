@@ -4,6 +4,14 @@
 
 */
 
+// VARIABLES
+
+// Var
+
+// Let
+
+// Const
+
 // DATA TYPES
 
 /* Number variable represents numeric values and can store INTEGERS and FLOATING-POINT numbers */
