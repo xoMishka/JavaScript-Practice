@@ -37,11 +37,16 @@ header {
 
 h1 {
     text-indent: 2rem;
+    font-size: 25px;
 }
 
 .variable-list {
     padding-left: 4rem;
     padding-right: 4rem;
+}
+
+li {
+    margin-bottom: 2rem;
 }
 
 p {
@@ -50,7 +55,11 @@ p {
 
 .code-container {
     background-color: #665A48;
-    width: 20%;
+    margin-left: 10rem;
+    margin-right: 50rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding: 1rem 2rem;
 }
 
 code {
