@@ -82,7 +82,10 @@ console.log(wordCount);
 
 // Declare a variable fullName and assign it your full name as a string. Write a code snippet to extract your last name from fullName and store it in a variable called lastName.
 let fullName = "Mishka Riot";
+let nameArray = fullName.split(" ");    // split the fullName string into an array of words
+let lastName = nameArray(nameArray.length - 1); // get the last element of the nameArray which is the last name
 
+console.log(lastName);
 
 // Declare a variable text and assign it a long string of text. Write a code snippet to check if the string contains the word "JavaScript". Store the result (true or false) in a variable called containsJavaScript.
 
