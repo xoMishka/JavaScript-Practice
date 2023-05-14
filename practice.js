@@ -75,9 +75,14 @@ let message = "Hello, World!";
 console.log(message);
 
 // Declare a variable sentence and assign it a string that contains multiple words. Write a code snippet to count the number of words in the sentence and store the result in a variable called wordCount.
-
+var sentence = "This is a sample sentence.";
+var words = sentence.trim().split(" "); // remove leading/trailing spaces and split the sentence into an array of words
+var wordCount = words.length;   // count the number of words in the array
+console.log(wordCount);
 
 // Declare a variable fullName and assign it your full name as a string. Write a code snippet to extract your last name from fullName and store it in a variable called lastName.
+let fullName = "Mishka Riot";
+
 
 // Declare a variable text and assign it a long string of text. Write a code snippet to check if the string contains the word "JavaScript". Store the result (true or false) in a variable called containsJavaScript.
 

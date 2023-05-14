@@ -109,3 +109,59 @@ Logical Operators
 
 /* Undefined */
 
+
+
+/*
+
+In JavaScript, `let`, `var`, and `const` are used to declare variables, but they have some differences in terms of scope, hoisting, and reassignment. Here's a breakdown of the differences:
+
+1. Scope:
+   - `let`: Variables declared with `let` have block scope. They are limited to the block in which they are defined, such as within a function or a statement block enclosed by curly braces `{}`.
+   - `var`: Variables declared with `var` have function scope or global scope. They are accessible throughout the entire function in which they are declared or, if declared outside any function, they become global variables accessible throughout the entire JavaScript environment.
+   - `const`: Variables declared with `const` also have block scope like `let`, but they are constants and their values cannot be reassigned once defined.
+
+2. Hoisting:
+   - `let` and `const`: Variables declared with `let` or `const` are hoisted to the top of their block scope but are not initialized. This means you cannot access them before the line where they are declared.
+   - `var`: Variables declared with `var` are hoisted to the top of their function scope or global scope and are initialized with the value `undefined`. This allows you to access them before the line where they are declared, although their value will be `undefined` until assigned a different value.
+
+3. Reassignment:
+   - `let`: Variables declared with `let` can be reassigned to a new value.
+   - `var`: Variables declared with `var` can be reassigned to a new value.
+   - `const`: Variables declared with `const` are constants and cannot be reassigned once defined. However, if the variable holds a reference to an object or an array, the properties or elements of the object or array can still be modified.
+
+4. Temporal Dead Zone (TDZ):
+   - `let` and `const`: Variables declared with `let` or `const` are subject to the Temporal Dead Zone (TDZ). This means that accessing these variables before they are declared in the current block scope will result in a `ReferenceError`.
+   - `var`: Variables declared with `var` do not have a temporal dead zone. They can be accessed and will have the value `undefined` until they are assigned a different value.
+
+In general, it is recommended to use `let` for variables that need to be reassigned, `const` for variables that should not be reassigned, and to avoid using `var` in modern JavaScript development, as it has some behavior that can lead to unexpected results and makes it harder to maintain code.
+
+Here's an example that demonstrates the differences:
+
+function example() {
+  console.log(x); // undefined (hoisted)
+  console.log(y); // ReferenceError: y is not defined (TDZ)
+  console.log(z); // ReferenceError: z is not defined (TDZ)
+  
+  var x = 1;
+  let y = 2;
+  const z = 3;
+
+  if (true) {
+    var x = 10;
+    let y = 20;
+    const z = 30;
+    console.log(x); // 10
+    console.log(y); // 20
+    console.log(z); // 30
+  }
+
+  console.log(x); // 10 (reassigned)
+  console.log(y); // 2 (block scope)
+  console.log(z); // 3 (block scope)
+
+  x = 100;
+  // y = 200; // Error: Assignment to constant variable
+  console.log(x); // 100 (reassigned)
+}
+
+*/
