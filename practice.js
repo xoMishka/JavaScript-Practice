@@ -67,10 +67,15 @@ console.log(calculateFactorial());
 /***** STRING VARIABLES *****/
 
 // Declare a variable name and assign it your name as a string. Print out the value of name to the console.
+let name = "Amber";
+console.log(name);
 
 // Declare a variable message and assign it a string that says "Hello, World!". Print out the value of message to the console.
+let message = "Hello, World!";
+console.log(message);
 
 // Declare a variable sentence and assign it a string that contains multiple words. Write a code snippet to count the number of words in the sentence and store the result in a variable called wordCount.
+
 
 // Declare a variable fullName and assign it your full name as a string. Write a code snippet to extract your last name from fullName and store it in a variable called lastName.
 
