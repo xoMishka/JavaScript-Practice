@@ -48,11 +48,13 @@ p {
     padding-left: 2rem;
 }
 
-code {
+.code-container {
     background-color: #665A48;
+    width: 20%;
+}
+
+code {
     font-size: 14px;
     font-family:'Courier New', Courier, monospace;
     color: #EDE4E0;
-    padding: 2px 4px;
-    border-radius: 4px;
 }
