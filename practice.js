@@ -24,6 +24,15 @@ function toFahrenheit() {
 console.log(toFahrenheit());
 
 // Declare a variable price and assign it a value. Write a code snippet to calculate the final price after applying a discount of 20%. Store the result in a variable called finalPrice.
+function finalPrice2() {
+    var price = 40;
+    var discount = .20;
+    var finalPrice = price - price * discount;
+    return finalPrice;
+}
+
+console.log(finalPrice2());
+
 function finalPrice() {
     let price = 20;
     let finalPrice = price - price * .20;
