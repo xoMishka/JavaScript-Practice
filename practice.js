@@ -10,7 +10,18 @@
 
 // Write a code snippet to find the largest number among three given numbers. Declare three variables num1, num2, and num3, and assign them different values. Find the largest number among them and store it in a variable called largestNumber.
 
-// Write a code snippet to calculate the factorial of a given number. Declare a variable num and assign it a positive integer value. Calculate the factorial of num and store the result in a variable called factorial. The factorial of a number is the product of all positive integers less than or equal to that number.
+// Write a code snippet to calculate the factorial of a given number. Declare a variable num and assign it a positive integer value. Calculate the factorial of num and store the result in a variable called factorial. The factorial of a number is the product of all positive integers less than or equal to that number, i.e. 5 = 1 * 2 * 3 * 4 * 5
+function factorial() {
+    var num = 10;
+    var factorial = 1;
+    for (let i = 1; i <= num; i++) {
+        factorial *= i;
+    }
+    return factorial;
+}
+
+console.log(factorial());
+
 function calculateFactorial() {
     let num = 5;
     let factorial = 1;
