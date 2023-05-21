@@ -9,5 +9,5 @@ console.log(addition(3, 4));    // 7
 // Write a function that converts hours into seconds, i.e. 2 = 7200
 // 2 hours = 60 minutes * 60 = 3600 seconds per hour * 2 = 7200
 function howManySeconds() {
-
+    
 }
