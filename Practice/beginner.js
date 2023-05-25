@@ -10,6 +10,7 @@ function sum() {
 
 console.log(sum());
 
+
 // Declare a variable radius and assign it a value of 10. Write a code snippet to calculate the circumference of a circle with the given radius and store the result in a variable called circumference. Assume the value of π (pi) to be 3.14159. C = 2πr
 function circumference() {
     let radius = 10;
@@ -22,7 +23,7 @@ console.log(circumference());
 
 // Write a code snippet to convert a temperature in Celsius to Fahrenheit. Declare a variable celsius and assign it a value. Calculate the corresponding temperature in Fahrenheit and store it in a variable called fahrenheit. The conversion formula is: fahrenheit = celsius * 9/5 + 32.
 function toFahrenheit() {
-    let celsius = 45;
+    let celsius = 2;
     let fahrenheit = celsius * 9/5 + 32;
     return fahrenheit;
 }
@@ -40,15 +41,15 @@ function finalPrice() {
 console.log(finalPrice());
 
 // Write a code snippet to find the largest number among three given numbers. Declare three variables num1, num2, and num3, and assign them different values. Find the largest number among them and store it in a variable called largestNumber.
-function largestNum() {
-    let num1 = 400;
-    let num2 = 23983;
-    let num3 = 10;
+function largestNumber() {
+    let num1 = 12;
+    let num2 = 43890;
+    let num3 = 19290;
     let largestNumber = Math.max(num1, num2, num3);
     return largestNumber;
 }
 
-console.log(largestNum());
+console.log(largestNumber());
 
 /***** STRING VARIABLES *****/
 
